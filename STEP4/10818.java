@@ -7,14 +7,14 @@ public class Main {
     	Scanner sc = new Scanner(System.in);
     	
     	int N = sc.nextInt();
-    	int var[] = new int[N];
+    	int var1[] = new int[N];
     	
     	for (int i = 0; i < N; i++) {
-    		var[i] = sc.nextInt();
+    		va1r[i] = sc.nextInt();
     	}
     	
-    	Arrays.sort(var);
-    	System.out.println(var[0]);
-    	System.out.println(var[N-1]);
+    	Arrays.sort(var1);
+    	System.out.println(var1[0]);
+    	System.out.println(var1[N-1]);
     }  	
 } 	
