@@ -12,7 +12,6 @@ public class Main {
             arr[i] = sc.nextInt();
             sum += arr[i];
         }
-
         Arrays.sort(arr);
         System.out.println(sum / 5);
         System.out.println(arr[2]);
